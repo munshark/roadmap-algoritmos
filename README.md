@@ -24,6 +24,7 @@ A continuación, encontrarás la estructura del repositorio. Cada carpeta contie
 8. [07-listas](./07-listas)
 9. [08-loops-for-while](./08-loops-for-while)
 10. [09-estructuras compuestas](./09-estructuras-compuestas)
+11. [11-trabajo-colaborativo](./11-trabajo-colaborativo)
 
 ## ¿Cómo comenzar?
 
