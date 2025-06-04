@@ -2,7 +2,19 @@
 
 ## Introducción
 El trabajo en equipo requiere coordinar los cambios de varias personas en un mismo repositorio. Git y GitHub ofrecen herramientas para organizar este proceso de forma segura y ordenada.
+## Conceptos clave
 
+Antes de comenzar, es importante entender algunos términos fundamentales:
+
+- **Repositorio:** Es el espacio donde se almacena el historial de archivos y cambios de un proyecto gestionado con Git.
+- **Rama (*branch*):** Es una línea de desarrollo independiente dentro del repositorio. Permite trabajar en nuevas características o correcciones sin afectar el código principal.
+- **Fork:** Es una copia de un repositorio en tu propia cuenta de GitHub. Se utiliza cuando no tienes permisos para escribir directamente en el repositorio original.
+- **Pull Request (PR):** Es una solicitud para fusionar los cambios de una rama (propia o de un fork) en otra rama del repositorio principal. Permite la revisión y discusión de los cambios antes de integrarlos.
+- **Merge:** Es el proceso de combinar los cambios de una rama en otra.
+- **Conflicto:** Ocurre cuando dos ramas han modificado la misma parte de un archivo y Git no puede fusionarlas automáticamente. Es necesario resolver manualmente qué cambios conservar.
+- **Commit:** Es un registro de los cambios realizados en el repositorio, acompañado de un mensaje descriptivo.
+
+Estos conceptos te ayudarán a comprender mejor el flujo de trabajo colaborativo en Git y GitHub.
 ## Flujo de trabajo recomendado
 1. **Clonar o hacer *fork* del repositorio.** Si no tienes permisos de escritura, realiza un *fork* y clona tu copia localmente.
 2. **Crear una rama nueva para cada aporte.** Utiliza `git checkout -b nombre-de-tu-rama` para mantener el código principal libre de cambios inestables.
